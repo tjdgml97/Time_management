@@ -1,6 +1,23 @@
 html{
-  min-height: 10%;
+  min-height: 100%;
 }
 body{
-  background: linear-gradient(#5882FA, #A9D0F5);
+  background: linear-gradient(#5882FA, #A9D0F5); 
+}
+
+/* .cardlist{
+  width: 100px;
+  display: flex;
+
+} */
+
+
+.card:hover{
+  background-color: ivory;
+  display: flex;
+  scale: 1.2;
+}
+
+.button:hover{
+
 }

@@ -22,10 +22,10 @@ function Navigate(props){
     lis.push(
     <ol key={t.id}>
       
-      <div>
-      <Card border="success" style={{ width: '20rem' }}>
+      <div >
+      <Card border="success" style={{ width: '20rem' }} class="card">
         <Card.Header>      
-           <Button  style={{position: 'absolute', right: 0, marginRight: "30px"}}  variant="outline-danger" onClick={()=>{
+           <Button  class="button" style={{position: 'absolute', right: 0, marginRight: "30px"}}  variant="outline-danger" onClick={()=>{
         const newlis = [];
 
         for(let j = 0;j<props.topics.length; j++) {
